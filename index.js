@@ -21,7 +21,8 @@ function destructivelyRemoveFirstKitten (kittensString) {
     return kittens;
 }
 
+// this is not correct! work on it!
 function appendKitten (kittensString) {
-  kittens.slice(kittensString);
+  kittens.splice(kittensString);
     return kittens;
 }
