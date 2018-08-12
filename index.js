@@ -20,3 +20,8 @@ function destructivelyRemoveFirstKitten (kittensString) {
   kittens.shift(kittensString);
     return kittens;
 }
+
+function appendKitten (kittensString) {
+  kittens.slice(kittensString);
+    return kittens;
+}
