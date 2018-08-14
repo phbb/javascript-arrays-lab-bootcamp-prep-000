@@ -23,6 +23,6 @@ function destructivelyRemoveFirstKitten (kittensString) {
 
 // this is not correct! work on it!
 function appendKitten (kittensString) {
-  kittens === kittnes("Broom");
+  kittens === kittens("Broom");
   return kittens;
-}
+}ß
