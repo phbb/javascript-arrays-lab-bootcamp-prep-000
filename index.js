@@ -25,4 +25,4 @@ function destructivelyRemoveFirstKitten (kittensString) {
 function appendKitten (kittensString) {
   kittens === kittens("Broom");
   return kittens;
-}ß
+}
