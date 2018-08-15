@@ -1,5 +1,7 @@
 // kittens string
  var kittens = ["Milo", "Otis", "Garfield"];
+ var kittens2 = kittens.concat('Broom');
+ var kittens3 = kittens.unshift('Arnold');
  
 function destructivelyAppendKitten (kittensString) {
   kittens.push(kittensString);
@@ -8,7 +10,7 @@ function destructivelyAppendKitten (kittensString) {
 
 function destructivelyPrependKitten (kittensString) {
   kittens.unshift(kittensString);
-    return kittens;
+    return kittens3;
 }
 
 function destructivelyRemoveLastKitten (kittensString) {
@@ -21,8 +23,11 @@ function destructivelyRemoveFirstKitten (kittensString) {
     return kittens;
 }
 
-// this is not correct! work on it!
 function appendKitten (kittensString) {
-  kittens.push(kittensString);
-    return kittens;
+  return kittens2;
+}
+
+/// not correct, work on it!
+function prependKitten (kittensString) {
+  return kittens3;
 }
